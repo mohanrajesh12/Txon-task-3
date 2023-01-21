@@ -9,7 +9,7 @@ form.addEventListener('submit',(e)=>{
     row.innerHTML =`<td><input type="radio" class="completed"></td>
                     <td>${title}</td>
                     <td>${description}</td>
-                    <td>${category}</td>
+                    <td>${category}</td>                 
                     <td><button href="#" class="delete">X</button></td>`;
     list.appendChild(row);
     document.querySelector('#title').value = " ";
