@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-.flex{
+.flex{                      
     display: flex;
     flex-direction: row;
 }
